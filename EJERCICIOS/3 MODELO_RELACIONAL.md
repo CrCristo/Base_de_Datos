@@ -13,3 +13,36 @@ cada coche. Cada revisión tiene asociado un código que se incrementa automáti
 por cada revisión que se haga. De cada revisión se desea saber si se ha hecho cambio de
 filtro, si se ha hecho cambio de aceite, si se ha hecho cambio de frenos u otros. Los
 coches pueden pasar varias revisiones en el concesionario
+
+    USE tienda;
+
+    /* esta nos permite modificar los datos de un obheto especifico
+    UPDATE cliente
+    SET nom_clie='Laura Pérez' WHERE clave_clie=23;*/
+
+    /*Muestra toda la tabla de clientes
+    SELECT * FROM cliente;*/
+
+    /*esto saca la media de el precio de los productos o en general de una lista
+    SELECT AVG(precio) FROM producto;*/
+
+    /*ESTO nos cuenta el numnero de objetos que hay en una lista 
+    SELECT COUNT(nom_prod) FROM producto; */
+
+    /*Estp nos permite ver el producto con el precio más alto o bajo de la lista
+    SELECT MAX(precio) FROM producto;
+    SELECT MIN(precio) FROM producto; */
+
+    /*empezamos a llenar la tabla de ventas
+    INSERT INTO nota VALUES (1,93,89,2,NULL);
+    ESTO es para agregar y modificar una enta
+    UPDATE nota 
+    INNER JOIN producto ON producto.clave_prod=nota.clave_prod1
+    SET subtot=cant * precio WHERE folio=1;*/
+
+    /*
+    SELECT folio,nom_clie, clave_prod, nom_prod, cant, subtot
+    FROM producto INNER JOIN nota ON nota.clave_prod1=producto.clave_prod 
+    INNER JOIN cliente ON cliente.clave_clie=nota.clave_clie1;*/
+
+    /*DROP elimina toda la base */
