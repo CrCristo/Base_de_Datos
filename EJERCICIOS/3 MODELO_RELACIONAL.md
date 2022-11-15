@@ -66,3 +66,24 @@ https://www.db-fiddle.com/f/52UkGnPWc2h6PUHe3csBrU/0
     SELECT nom_prod,precio
     FROM producto
     ORDER BY (precio)DESC;*/
+    
+    /*INSERT INTO nota VALUES (1,93,89,2,NULL,.16,NULL);
+    INSERT INTO nota VALUES (2,12,45,3,NULL,.16,NULL);
+    INSERT INTO nota VALUES (3,119,111,6,NULL,.16,NULL);
+    INSERT INTO nota VALUES (4,173,111,6,NULL,.16,NULL);
+
+    UPDATE nota 
+    INNER JOIN producto ON producto.clave_prod=nota.clave_prod1
+    SET subtot=cant * precio;
+
+    UPDATE nota 
+    INNER JOIN producto ON producto.clave_prod=nota.clave_prod1
+    SET total=(IVA*subtot)+subtot;
+
+    SELECT folio,nom_prod,nom_clie,subtot,total 
+    FROM producto INNER JOIN nota ON nota.clave_prod1=producto.clave_prod 
+    INNER JOIN cliente ON cliente.clave_clie=nota.clave_clie1 
+    ORDER BY(nom_clie)ASC;
+    */
+
+Cual es la marca que más se vnde y cual es el cliente que mas compra
