@@ -46,3 +46,21 @@ coches pueden pasar varias revisiones en el concesionario
     INNER JOIN cliente ON cliente.clave_clie=nota.clave_clie1;*/
 
     /*DROP elimina toda la base */
+    /*SELECT MAX(precio),marca FROM producto
+    GROUP BY marca;
+
+    ESTO te cuenta el numero de producto agrupados por marca
+    SELECT marca, COUNT(clave_prod) 
+    FROM producto 
+    GROUP BY marca;
+
+
+    Esto te ordena el nombre de los clientes de fomra ascendente en base a la clave de los clientes 
+    SELECT nom_clie 
+    FROM cliente 
+    ORDER BY (clave_clie)ASC;
+
+    Estp te miestra el precio y el nombre del producto en base a su precio en orden decendente
+    SELECT nom_prod,precio
+    FROM producto
+    ORDER BY (precio)DESC;*/
