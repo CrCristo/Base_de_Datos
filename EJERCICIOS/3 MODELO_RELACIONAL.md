@@ -87,3 +87,10 @@ https://www.db-fiddle.com/f/52UkGnPWc2h6PUHe3csBrU/0
     */
 
 Cual es la marca que más se vnde y cual es el cliente que mas compra
+
+
+
+
+EXOS
+https://www.db-fiddle.com/f/5hqo7wUoqqrf3YMQfCLEbY/2
+
